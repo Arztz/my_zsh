@@ -32,3 +32,14 @@ brew install kubectx
 brew install derailed/k9s/k9s
 
 https://cloud.google.com/sdk/docs/install-sdk
+
+
+
+
+
+Linux
+sudo apt-get update
+sudo apt-get install zsh -y
+sudo chsh -s /usr/bin/zsh
+
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
